@@ -1,10 +1,8 @@
 {
-  "name": "server",
+  "name": "api-gateway",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js",
     "build": "webpack --progress",
     "deploy": "node-deploy $(pwd)",
     "watch": "babel-watch -L src/index.js",
@@ -36,7 +34,6 @@
     "webpack-node-externals": "~1.7.2"
   },
   "devDependencies": {
-    "babel-cli": "^6.26.0",
     "babel-watch": "^7.3.0"
   }
 }
